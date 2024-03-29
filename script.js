@@ -11,7 +11,7 @@ function sendMessage() {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer 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'
+        'Authorization': 'Bearer my open api key'
       },
       body: JSON.stringify({
         prompt: message,
